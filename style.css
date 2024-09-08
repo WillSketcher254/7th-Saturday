@@ -1,0 +1,68 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background: linear-gradient(90deg,rgb(250, 208, 248),rgb(208, 247, 250));
+}
+.navbar{
+    background: linear-gradient(0deg,rgb(75, 3, 116),rgb(3, 3, 116));
+    font-family: calibri;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a:hover{
+    border-radius: 10px;
+    background: rgb(140, 1, 145);
+}
+.logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 25px;
+}
+.info{
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    color: rgb(3, 3, 116);
+}
+.info h4{
+    text-decoration: underline;
+}
+.info .infobox1{
+    background: rgba(98, 98, 255, 0.1);
+    padding: 5px;
+    border-radius: 20px;
+    border: 4px solid rgba(98, 98, 255, 0.2);
+}
+.info .infobox2{
+    background: rgba(98, 98, 255, 0.1);
+    padding: 5px;
+    border-radius: 20px;
+    border: 4px solid rgba(98, 98, 255, 0.2);
+    margin: 10px 0;
+    display: flex;
+}
+footer{
+    background: linear-gradient(0deg,rgb(3, 3, 116),rgb(75, 3, 116));
+    font-family: calibri;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+footer a{
+    
+}
