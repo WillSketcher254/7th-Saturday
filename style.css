@@ -12,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 .navbar a:hover{
     border-radius: 10px;
@@ -35,7 +36,11 @@ body{
 .info{
     font-family: "Poppins", sans-serif;
     padding: 10px;
-    color: rgb(3, 3, 116);
+    color: rgb(3, 3, 116);    
+}
+.info1{
+    display: grid;
+    grid-template-columns: 50% auto;
 }
 .info h4{
     text-decoration: underline;
@@ -64,5 +69,6 @@ footer{
     color: white;
 }
 footer a{
-    
+    text-decoration:none;
+    color:white;
 }
