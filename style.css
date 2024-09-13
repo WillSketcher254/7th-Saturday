@@ -6,7 +6,7 @@ body{
     background: linear-gradient(90deg,rgb(250, 208, 248),rgb(208, 247, 250));
 }
 .navbar{
-    background: linear-gradient(0deg,rgb(162, 0, 255),rgb(3, 3, 116));
+    background: rgba(98, 98, 255, 0.1);
     font-family: calibri;
     padding: 0 15px;
     display: flex;
@@ -30,7 +30,7 @@ body{
     display: inline-block;
 }
 .navbar li a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: bold;
     margin: 0 25px;
